@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 242, 178) 0%,
+    28.9116%,
+    rgb(255, 212, 207) 57.8231%,
+    78.9116%,
+    rgb(255, 185, 233) 100%
+  );
+}
+
 body {
-  background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+  /* background-image: linear-gradient(to right, #ff7e5f, #feb47b); */
+  background: linear-gradient(
+    90deg,
+    rgb(255, 242, 178) 0%,
+    28.9116%,
+    rgb(255, 212, 207) 57.8231%,
+    78.9116%,
+    rgb(255, 185, 233) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-color: white; */
+  min-width: 200px;
 }
